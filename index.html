@@ -4,32 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <nav>
 
-<div  style="display: flex;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: fixed; width: 100%;" class="navbar">
+    <div class="container-fluid">
+      <img src="img/Logo.png" alt="" width="3%">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" style="color: #6D1830; font-weight: bold;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" style="color: #6D1830; font-weight: bold;">About</a>
+          </li>
 
-  <div>
-    <img src="img/Logo.png" alt="" style="width:20%; margin-left: 100px;">
-  </div>
+          <li class="nav-item">
+            <a class="nav-link" href="Blog.html" style="color: #6D1830; font-weight: bold;">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="download.html" style="color: #6D1830; font-weight: bold;">Download</a>
+          </li>
   
-  <div style="margin-left: 200px; margin-top: 10px;" class="upper">
-    <a href="" style="text-decoration: none; color: black; font-size: 14px;">Home</a>
-    <a href=""  style="margin-left: 30px; text-decoration: none; color: black; font-size: 14px;">About</a>
-    <a href=""  style="margin-left: 30px; text-decoration: none; color: black; font-size: 14px;">Blog</a>
-    <a href=""  style="margin-left: 30px; text-decoration: none; color: black; font-size: 14px;">Download</a>
-    <a href=""  style="margin-left: 30px; text-decoration: none; color: black; font-size: 14px;">Contact</a>
-  </div>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact Page.html" style="color: #6D1830; font-weight: bold;">Contact</a>
+          </li>
+        </ul>
 
-  <button style="background-color: #6D1830; border: none; color: white
-  ; font-size: 10px; padding-left: 10px; border-radius: 2px; padding-right: 10px; width: 9%; margin-left: 100px;">
-  Download now
-</button>
-
-</div>
-
+        <form class="d-flex" style="margin-right: 190px;">
+          <button class="btn btn-outline-success" type="submit" >Download now</button>
+        </form>
+      </div>
+    </div>
   </nav>
   
 <div style="display: flex; background-color: #FFF9F2; padding-bottom: 50px;">
@@ -184,13 +196,12 @@ margin-top: 80px;">
         representations of objects with <br>
         ease
       </p>
-      <button style="padding: 10px; border-radius: 3px; border: 0;"><a href="" style="text-decoration: none; color: black;">Download now</a></button>
+      <button style="padding: 7px; border-radius: 3px; border: 0; margin-bottom: 0px;"><a href="" style="text-decoration: none; color: black;">Download now</a></button>
     </div>
-    
     </div>
   
   </div>
-  <hr style="margin-top: 280px; width: 80%;">
+  <hr style="margin-top: 350px; width: 80%; margin-left: 150px;">
   
   <p style="font-size: 20px; margin-top: 30px; text-align: center; font-weight: bold;">
     The Best Features Any 3D App Can Offer
@@ -332,6 +343,7 @@ margin-top: 80px;">
 
 </main>
 
+<script src="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
