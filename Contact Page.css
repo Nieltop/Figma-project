@@ -263,6 +263,10 @@
     margin-left: 30px;
 }
 
+.newPhone{
+    display: none;
+}
+
 .Phone{
     background-color: #14394C;
     margin-top: 60px;
@@ -301,6 +305,10 @@
     padding: 8px;
     border-radius: 3px;
     margin-left: 113px;
+}
+
+.newSubscribe{
+    display: none;
 }
 
 .Subscribe{
@@ -627,6 +635,150 @@
 
 .newFrequently{
     display: block;
+}
+
+.newFrequentlyone{
+    margin-top: 50px;
+}
+
+.newFrequentlyone h3{
+    margin-left: 38%;
+}
+
+.newFrequentlyparagraph{
+    margin-left: 39%;
+}
+
+.Compatable{
+    margin-left: 480px;
+}
+
+.Compatablehightext{
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 30px;
+}
+
+.Compatablelowtext{
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.newFrequentlylineone{
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 380px;
+}
+
+.Safe{
+    margin-top: 25px;
+    margin-left: 480px;
+}
+
+.Safetext{
+    font-weight: bold;
+}
+
+.newFrequentlylinetwo{
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 380px;
+}
+
+.Help{
+    margin-top: 25px;
+    margin-left: 480px;
+}
+
+.Helptext{
+    font-weight: bold;
+}
+
+.newFrequentlylinethree{
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 380px;
+}
+
+.Pay{
+    margin-top: 25px;
+    margin-left: 480px;
+}
+
+.Paytext{
+    font-weight: bold;
+}
+
+.newFrequentlylinefour{
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 380px;
+}
+
+.Phone{
+    display: none;
+}
+
+.newPhone{
+    display: block;
+    display: flex;
+    background-color: #14394C;
+    margin-top: 60px;
+}
+
+.newPhoneimg{
+    width: 25%;
+}
+
+.newPhonecontent{
+    margin-top: 130px;
+    margin-left: 300px;
+}
+
+.newPhonecontentheading{
+    color: white;
+}
+
+.newPhonecontenttext{
+    color: white;
+    font-size: 14px;
+}
+
+.newPhonecontentbutton{
+    border: 0;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.Subscribe{
+    display: none;
+}
+
+.newSubscribe{
+    display: block;
+    display: flex;
+    background-color: #6d1830;
+    padding-bottom: 25px;
+}
+
+.newSubscribeone{
+    margin-left: 100px;
+}
+
+.newSubscribetext h3{
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.newSubscribetext p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.formfill{
+    display: flex;
 }
 
 }
